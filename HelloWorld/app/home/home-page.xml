@@ -1,0 +1,16 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Run Higher"></Label>
+    </ActionBar>
+
+    <FlexboxLayout flexDirection='column' justifyContent="center" alignItems="center">
+	    <Button id="test-child" text="Scan for Bluetooth" tap="startScan" class="btn btn-primary btn-active"/>	    
+	    <Button id="test-child" text="Connect to Device" tap="connectCode" class="btn btn-primary btn-active"/>	
+	    <Button id="test-child" text="Turn On" tap="writeCode" class="btn btn-primary btn-active"/>
+	    <Button id="test-child" text="Turn Off" tap="turnOff" class="btn btn-primary btn-active"/>
+	</FlexboxLayout>
+
+</Page>
